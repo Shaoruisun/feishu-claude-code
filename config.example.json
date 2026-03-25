@@ -1,0 +1,24 @@
+{
+  "feishu": {
+    "appId": "cli_xxxxxxxxxxxxxxxx",
+    "appSecret": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "domain": "feishu",
+    "verificationToken": "可选，webhook 模式下校验用",
+    "encryptKey": "可选，消息加密密钥"
+  },
+  "claude": {
+    "bin": "claude",
+    "defaultWorkdir": "/home/user/projects",
+    "extraArgs": [],
+    "sessionTimeout": 1800000,
+    "maxSessions": 50
+  },
+  "bot": {
+    "requireMention": true,
+    "allowedGroupIds": [],
+    "allowedUserIds": [],
+    "streamingInterval": 800,
+    "maxMessageLength": 4000,
+    "sessionScope": "chat"
+  }
+}

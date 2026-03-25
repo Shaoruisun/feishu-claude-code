@@ -1,6 +1,4 @@
 # feishu-claude-code
-A channel from Feishu to commute with Claude Code
-# feishu-claude-code
 
 通过飞书/Lark 远程与 **Claude Code** 交互的桥接服务。无需公网地址，基于飞书 WebSocket 长连接，在飞书中直接调用 Claude Code 的全部能力（读写文件、执行命令、分析代码等）。
 
