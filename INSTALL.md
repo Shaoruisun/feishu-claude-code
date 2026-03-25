@@ -128,7 +128,7 @@ npm run build
 
 ```bash
 cd feishu-claude-code
-cp .env.example .env
+cp env.example .env
 nano .env   # 或使用任意编辑器
 ```
 

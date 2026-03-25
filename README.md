@@ -63,7 +63,7 @@ Claude Code 需提前完成登录（执行 `claude` 后能正常对话）。
 tar -xzf feishu-claude-code.tar.gz
 cd feishu-claude-code
 npm install --omit=dev
-cp .env.example .env
+cp env.example .env
 nano .env          # 填入凭证（见配置说明）
 npm start
 ```
@@ -75,7 +75,7 @@ git clone https://github.com/Shaoruisun/feishu-claude-code/
 cd feishu-claude-code
 npm install
 npm run build
-cp .env.example .env && nano .env
+cp env.example .env && nano .env
 npm start
 ```
 
