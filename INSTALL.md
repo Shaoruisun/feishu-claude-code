@@ -30,17 +30,9 @@
 
 ## 获取项目
 
-### 方式一：从源机器复制（推荐）
+### 方式一：从压缩包（推荐）
 
-在 **源机器**（已有项目的机器）执行：
 
-```bash
-cd /home/sun
-tar -czf feishu-claude-code.tar.gz feishu-claude-code/
-scp feishu-claude-code.tar.gz 用户名@目标机器IP:/home/用户名/
-```
-
-在 **目标机器** 执行：
 
 ```bash
 cd ~
