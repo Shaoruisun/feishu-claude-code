@@ -144,10 +144,10 @@ npm start
 
 ## 配置说明
 
-复制 `.env.example` 为 `.env` 并填写：
+复制 `env.example` 为 `.env` 并填写：
 
 ```bash
-cp .env.example .env
+cp env.example .env
 ```
 
 ### 必填项
@@ -156,6 +156,7 @@ cp .env.example .env
 |------|------|
 | `FEISHU_APP_ID` | 飞书应用 ID，格式 `cli_xxxxxxxxxxxxxxxx` |
 | `FEISHU_APP_SECRET` | 飞书应用密钥 |
+| 'CLAUDE_WORKDIR' | # 工作目录（Claude 可以读写此目录下的文件，附件也会下载到此处）
 
 ### 常用配置
 
